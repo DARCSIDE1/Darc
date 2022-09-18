@@ -70,13 +70,15 @@ enctype="application/x-www-form-urlencoded" autocomplete="off" novalidate>
         Last-name: <input type="text"><br>
         Age: <input type="number" aria-valuemax="100" aria-valuemin="1">
         Gender: <input type="text">
+        Nationality: <input type="text">
     </fieldset><br>
     <fieldset>
         <legend>Geodata:</legend>
         1st Address: <input type="text">
-        <input type="text">
-        Field 4:
-        <input type="text">
+        2nd Address (optional): <input type="text">
+        Zip Code: <input type="number">
+        State: <input type="text">
+        Country: <input type="text">
     </fieldset><br>
     <input type="submit" value="submit">
 </form>
@@ -108,7 +110,22 @@ enctype="application/x-www-form-urlencoded" autocomplete="off" novalidate>
     </li>
 </div>
 
-
+<div role="tablist" >
+    <li role="table">This is a column sample
+        <ul title="Bruce" role="cell">cell sample</ul>
+        <ul title="Banner" role="cell">cell sample1</ul>
+        <ul title="Welson" role="cell">cell sample2</ul>
+    </li>
+    <li role="table">This is a row sample
+        <ul role="row" title="Banner">row sample1</ul>
+        <ul role="row" title="Welson">row sample2</ul>
+        <ul role="row" title="Bruce">row sample3</ul>
+    </li>
+</div>
+<div role="alertdialog">
+    This is my github api token
+    <li role="alertdialog">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</li>
+</div>
 
 </body>
 </html>
